@@ -84,7 +84,7 @@ void search(int *array, int min, int max, size_t size)
 
 void quick_sort(int *array, size_t size)
 {
-	if (!*array || array == NULL || size < 2)
+	if (!array || array == NULL || size < 2)
 		return;
 
 	search(array, 0, size - 1, size);
